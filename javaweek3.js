@@ -1,3 +1,9 @@
+
+// Math random nesnesi ile 1-10 arası rastgele numarası uretılır ve supheli bu vagonda saklanacaktır
+// Kullanici ise supheli cabbari bulmak icin vagon numarası gireceği değeri almak icin promp kullanılacaktır
+// if else dongusu ile yukarı aşagı diyerek dogru sonuca ulaştırılması sağlanacaktır
+// console ekranı promptan dolayı calışmadıgı icin ilk ikazlar alert ile verildi sonuc ekranı console ile yazıldı
+
 let tahmin;
 let sayac = 0;
 const saklanilanVagon = Math.floor((Math.random() * 10) + 1);//Şüphelinin Saklandıgı vagon
