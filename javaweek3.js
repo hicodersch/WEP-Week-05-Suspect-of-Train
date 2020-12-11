@@ -1,7 +1,7 @@
-
 /*  -Math random nesnesi ile 1-10 arası rastgele numarası uretılır ve supheli bu vagonda saklanacaktır
     -Supheli cabbari bulmak icin Kullanıcıdan vagon numarası gireceği değeri almak icin promp kullanılacaktır
     -if else dongusu ile yukarı aşagı diyerek dogru sonuca ulaştırılması sağlanacaktır */
+
 const toplamhak = 4;
 // Math.random()*10 1 ile 9 arası sayı üretir bundan dolayı +1 eklendi
 const saklanilanVagon = Math.floor((Math.random() * 10) + 1); //Şüphelinin Saklandıgı vagon 
